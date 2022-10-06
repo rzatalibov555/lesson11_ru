@@ -1,0 +1,94 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.r_nav{
+    width: 100%;
+    min-height: 90px;
+    background: grey;
+    float: left;
+}
+
+.logo{
+    width: 30%;
+    min-height: inherit;
+    /* background: red; */
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    min-height: inherit;
+    background: green;
+    float: left;
+    
+    /* padding: 5px 270px;
+    box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px 10px;
+    border: 5px solid transparent;
+    color: red;
+    font-size: 22px;
+    transition: 0.5s;
+    /*letter-spacing: 2px;
+    word-spacing: 20px;
+    *//*line-height: 10px;
+    */
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+.menu ul li:hover {
+    color: yellow;
+    cursor: pointer;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+
+.demo{
+    font-family: "Webdings";
+    font-size: 90px;
+    color: white;
+    float: left;
+}
+
+.demo2{
+    font-family: "Arial";
+    font-size: 30px;
+    color: white;
+    float: left;
+    margin-top: 25px;
+}
+
+.cGreen{
+    color: rgb(34, 255, 0);
+}
+
+.cBlue{
+    color: blue;
+}

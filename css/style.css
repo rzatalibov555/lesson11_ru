@@ -1,0 +1,75 @@
+.mySize{
+    font-size: 170px;
+    color: red;
+    /* background: blue; */
+}
+
+.Fleft{
+    float: left;
+}
+
+.rotate-70{
+    transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+}
+
+.myC{
+    color: red;
+    
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+.myC:hover{
+    color: blue;
+    font-size: 20px;
+    transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+
+
+    
+}
+
+
+.test{
+    width: 150px;
+    height: 150px;
+    background: rgb(17, 255, 0);
+    float: left;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.test img{
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.5s    ;
+    -webkit-transition: 0.5s    ;
+    -moz-transition: 0.5s    ;
+    -ms-transition: 0.5s    ;
+    -o-transition: 0.5s    ;
+}
+
+.test img:hover{
+    /*transform: rotate(90deg);
+    -webkit-transform: scale(9) ;
+    -moz-transform: scale(9) ;
+    -ms-transform: scale(9) ;
+    -o-transform: scale(9) ;
+    */transform: perspective(500px) scale3d(0.8, 2, 0.2) translateZ(100px);
+}
